@@ -95,3 +95,6 @@ plt.savefig('co2_v2.png',dpi=fig.dpi,bbox_inches='tight')
 plt.show()
 plt.close()
 </pre>
+<pre>
+co2_v2.png image file should be created.
+</pre>
