@@ -51,14 +51,15 @@ import matplotlib.pyplot as plt
 # pandas for column manipulations
 import pandas as pd
 data=pd.read_csv('co2_v2')
+# attach two columns names: year and co2
 data.columns=['year','co2']
 # x-axis name
 plt.xlabel('year')
 # y-axis name
 plt.ylabel('density')
-# x-axis ticks
+# x-axis ticks which should be vertical
 plt.xticks(rotation='vertical',fontsize=6)
-# dot black colored graph
+# plot dot black colored graph: x and y
 plt.plot(data['year'],data['co2'],'k.')
 fig=plt.figure(1)
 # size of graph
