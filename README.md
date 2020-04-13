@@ -7,6 +7,8 @@ $ pip install library_name
 $ pip search library_name
 In order to know python version
 $ python -V
+To find the location of Python, run the following command
+$ which python
 
 For Python programming:
  -space describes the structure:
@@ -79,3 +81,4 @@ fig.set_size_inches(10,5)
 plt.savefig('co2_v2.png',dpi=fig.dpi,bbox_inches='tight')
 plt.show()
 plt.close()
+</pre>
