@@ -1,6 +1,6 @@
 # python-novice
 <pre>
-There are Python 2.X and 3.X. Python 2.X will be obsoleted. 
+There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 In order to install Python, use miniconda.
 $ pip install library_name
 $ pip search library_name
