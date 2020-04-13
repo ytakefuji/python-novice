@@ -7,8 +7,10 @@ On Windows, download Python3.7 exe file and click it
 On Mac, download Python sh file and run 
 $ bash the downloaded .sh file 
 
-$ pip install library_name
+$ pip install library_name (matplotlib, pandas,...)
+To find the library name,
 $ pip search library_name
+
 In order to know python version
 $ python -V
 To find the location of Python, run the following command
