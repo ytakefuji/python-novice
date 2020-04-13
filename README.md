@@ -6,8 +6,8 @@ $ pip install library_name
 $ pip search library_name
 
 For Python programming:
- space describes the structure:
- to practice Python, use ipython (interactive Python)
+ -space describes the structure:
+ -to practice Python, use ipython (interactive Python)
  
 1. The goal of this example: 
  -read a csv file and create a file with extracted column chunks from the csv file. 
