@@ -98,4 +98,4 @@ plt.close()
 <pre>
 co2_v2.png image file should be created.
 </pre>
-<href img="../gwarm/co2_v2.png">
+<img source="https://github.com/ytakefuji/global-warming/blob/master/co2_v2.png" height=50 width=100>
