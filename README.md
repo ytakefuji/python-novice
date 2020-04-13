@@ -9,7 +9,9 @@ For Python programming:
  space describes the structure:
  to practice Python, use ipython (interactive Python)
  
-1. how to read csv file co2_v2.txt as follows:
+1. The goal of this example: 
+ -read a csv file and create a file with extracted column chunks from the csv file. 
+ -Plot a graph with 5th column (y-axis) and x-axis (first column+second column:year_month)
 
 2015  12    2015.958      401.85      401.85      402.51     30
 2016   1    2016.042      402.56      402.56      402.27     27
@@ -25,7 +27,7 @@ For Python programming:
 2016  11    2016.875      403.55      403.55      405.55     27
 2016  12    2016.958      404.45      404.45      405.13     30
 
-
+# how to read csv file co2_v2.txt
 co2=open('co2_v2.txt','r',encoding='utf-8')
 # comment
 """
