@@ -34,7 +34,7 @@ comments
 # empty list
 data=[]
 # or data=list()
-# loop, if else, list append
+# loop, list append
 for i in co2:
  a,b,c,d,e,f,g=i.split()
  data.append(a+'_'+b+','+e)
