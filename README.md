@@ -98,3 +98,4 @@ plt.close()
 <pre>
 co2_v2.png image file should be created.
 </pre>
+<href img="../gwarm/co2_v2.png">
