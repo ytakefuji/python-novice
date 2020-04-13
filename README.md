@@ -26,7 +26,7 @@ For Python programming:
 2016   8    2016.625      402.27      402.27      404.18     23
 
 
-# how to read csv file co2_v2.txt
+# how to read csv file co2_v2.txt which should be in the same folder
 co2=open('co2_v2.txt','r',encoding='utf-8')
 # comment
 """
