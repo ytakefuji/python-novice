@@ -8,7 +8,7 @@ On Mac, download Python sh file and run
 $ bash the downloaded .sh file 
 
 In order to install Python library, run the following command
-$ pip install library_name (matplotlib, pandas,...)
+$ pip install library_name (matplotlib, pandas, ipython,...)
 To find the library name,
 $ pip search library_name
 
