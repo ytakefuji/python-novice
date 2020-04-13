@@ -57,7 +57,7 @@ f=open('co2_v2','w',encoding='utf-8')
 f.write("\n".join(data))
 f.close()
 
-# co2_v2
+# co2_v2: 2 columns data
 2015_12,401.85
 2016_1,402.56
 2016_2,404.12
