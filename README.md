@@ -40,6 +40,7 @@ comments
 # create an empty list called data
 data=[]
 # or data=list()
+# in order to extract 3 columns (year, month, co2) and create 2 columns (year_month, co2)
 # for loop, list append
 for i in co2:
  a,b,c,d,e,f,g=i.split()
