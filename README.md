@@ -56,7 +56,8 @@ for i in co2:
 f=open('co2_v2','w',encoding='utf-8')
 f.write("\n".join(data))
 f.close()
-
+</pre>
+<pre>
 # co2_v2: 2 columns data
 2015_12,401.85
 2016_1,402.56
@@ -67,7 +68,9 @@ f.close()
 2016_6,406.83
 2016_7,404.41
 2016_8,402.27
+</pre>
 
+<pre>
 # import matplotlib library for graph
 import matplotlib.pyplot as plt
 # import pandas library for column manipulations
