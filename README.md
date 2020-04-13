@@ -15,7 +15,8 @@ For Python programming:
  -to practice Python, use ipython (interactive Python)
  
 1. The goal of this example: 
- -read a csv file (7 columns) and create a csv file co2_v2 (2 columns) with extracted column chunks from the csv file. 
+ -read a csv file (7 columns) and create a csv file co2_v2 (2 columns) 
+  with extracted column chunks from the csv file. 
  -Plot a graph with 5th column (y-axis) and x-axis (first column+second column:year_month)
 
 2015  12    2015.958      401.85      401.85      402.51     30
