@@ -46,6 +46,21 @@ f=open('co2_v2','w',encoding='utf-8')
 f.write("\n".join(data))
 f.close()
 
+# co2_v2
+2015_12,401.85
+2016_1,402.56
+2016_2,404.12
+2016_3,404.87
+2016_4,407.45
+2016_5,407.72
+2016_6,406.83
+2016_7,404.41
+2016_8,402.27
+2016_9,401.05
+2016_10,401.59
+2016_11,403.55
+2016_12,404.45
+
 # matplotlib for graph
 import matplotlib.pyplot as plt
 # pandas for column manipulations
