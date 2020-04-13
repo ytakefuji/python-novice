@@ -56,9 +56,9 @@ f.close()
 2016_7,404.41
 2016_8,402.27
 
-# matplotlib for graph
+# import matplotlib library for graph
 import matplotlib.pyplot as plt
-# pandas for column manipulations
+# import pandas library for column manipulations
 import pandas as pd
 data=pd.read_csv('co2_v2')
 # attach two columns names to data: year and co2
