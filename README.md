@@ -35,7 +35,8 @@ For Python programming:
 2016   6    2016.458      406.83      406.83      404.49     26
 2016   7    2016.542      404.41      404.41      404.07     28
 2016   8    2016.625      402.27      402.27      404.18     23
-
+</pre>
+<pre>
 # how to read csv file co2_v2.txt which should be in the same folder
 # in order to check the existence of co2_v2.txt, run ls command
 co2=open('co2_v2.txt','r',encoding='utf-8')
