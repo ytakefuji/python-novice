@@ -59,7 +59,7 @@ import matplotlib.pyplot as plt
 # pandas for column manipulations
 import pandas as pd
 data=pd.read_csv('co2_v2')
-# attach two columns names: year and co2
+# attach two columns names to data: year and co2
 data.columns=['year','co2']
 # x-axis name
 plt.xlabel('year')
