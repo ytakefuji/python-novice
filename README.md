@@ -33,14 +33,14 @@ co2=open('co2_v2.txt','r',encoding='utf-8')
 comments
 comments
 """
-# empty list
+# create an empty list called data
 data=[]
 # or data=list()
-# loop, list append
+# for loop, list append
 for i in co2:
  a,b,c,d,e,f,g=i.split()
  data.append(a+'_'+b+','+e)
-# open and write file co2_v2
+# open and write file co2_v2 using 'w' write mode
 f=open('co2_v2','w',encoding='utf-8')
 f.write("\n".join(data))
 f.close()
