@@ -3,6 +3,10 @@
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 Therefore, all explanations are based on Python 3.X.
 In order to install Python, use miniconda.
+On Windows, download Python3.7 exe file and click it
+On Mac, download Python sh file and run 
+$ bash the downloaded .sh file 
+
 $ pip install library_name
 $ pip search library_name
 In order to know python version
