@@ -107,6 +107,7 @@ You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.t
 </pre>
 
 <pre>
+# There are regression and classification in supervised machine learning.
 #Machine Learning: Random Forest Regression
 # ice.csv: ice(ice sales),temp(highest temperature),street(no. of pedestrians)
 date,ice,temp,street
