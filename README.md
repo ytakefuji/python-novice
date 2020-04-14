@@ -105,3 +105,47 @@ https://raw.githubusercontent.com/ytakefuji/global-warming/master/co2w.txt
 Assignment:
 You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.txt
 </pre>
+
+<pre>
+#Machine Learning
+# ice.csv: ice(ice sales),temp(highest temperature),street(no. of pedestrians)
+date,ice,temp,street
+2012/8/1,12220,26,4540
+2012/8/2,15330,32,5250
+2012/8/3,11680,32,6000
+2012/8/4,12640,29,5120
+2012/8/5,15150,34,4640
+2012/8/6,16440,33,8620
+2012/8/7,16080,35,5810
+2012/8/8,9830,34,4170
+...
+
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+from sklearn.ensemble import RandomForestRegressor
+import matplotlib.pyplot as plt
+# read ice.csv file
+data=pd.read_csv('ice.csv')
+# y=f(x)=f(temp,street) where y is ice sales which we would like to predict
+# x is temp and street
+x=data[['temp','street']]
+y=data['ice']
+# RandomForestRegressor: n_estimators is no. of trees
+# min_samples_split specifies the minimum number of samples required 
+# to split an internal leaf node.
+clf=RandomForestRegressor(n_estimators=50, min_samples_split=2)
+# Machine Learning
+clf.fit(x,y)
+# accuracy score
+print(clf.score(x,y))
+# feature_importances_
+print(clf.feature_importances_)
+# predict p=f(x)
+p=clf.predict(x)
+t=np.arange(0.0,31.0)
+plt.plot(t,data['ice'],'--b')
+plt.plot(t,p,'-b')
+plt.legend(('real','randomF'))
+plt.show()
+</pre>
