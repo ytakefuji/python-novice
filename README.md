@@ -107,7 +107,7 @@ You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.t
 </pre>
 
 <pre>
-#Machine Learning
+#Machine Learning: Random Forest Regression
 # ice.csv: ice(ice sales),temp(highest temperature),street(no. of pedestrians)
 date,ice,temp,street
 2012/8/1,12220,26,4540
@@ -142,6 +142,28 @@ print(clf.score(x,y))
 # feature_importances_
 print(clf.feature_importances_)
 # predict p=f(x)
+p=clf.predict(x)
+t=np.arange(0.0,31.0)
+plt.plot(t,data['ice'],'--b')
+plt.plot(t,p,'-b')
+plt.legend(('real','randomF'))
+plt.show()
+</pre>
+<pre>
+
+# Machine Learning: Random Forest Classification
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+from sklearn.ensemble import RandomForestClassifier
+import matplotlib.pyplot as plt
+data=pd.read_csv('ice.csv')
+x=data[['temp','street']]
+y=data['ice']
+clf=RandomForestClassifier(n_estimators=82, min_samples_split=2)
+clf.fit(x,y)
+print(clf.score(x,y))
+print(clf.feature_importances_)
 p=clf.predict(x)
 t=np.arange(0.0,31.0)
 plt.plot(t,data['ice'],'--b')
