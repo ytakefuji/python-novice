@@ -99,3 +99,9 @@ plt.close()
 co2_v2.png image file should be created.
 </pre>
 <img src="https://github.com/ytakefuji/global-warming/blob/master/co2_v2.png" height=200 width=400>
+<pre>
+The following file co2w.txt is global weekly co2 density:
+https://raw.githubusercontent.com/ytakefuji/global-warming/master/co2w.txt
+Assignment:
+You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.txt
+</pre>
