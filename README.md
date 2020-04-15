@@ -102,8 +102,7 @@ co2_v2.png image file should be created.
 </pre>
 <img src="https://github.com/ytakefuji/global-warming/blob/master/co2_v2.png" height=200 width=400>
 <pre>
-The following file co2w.txt is global weekly co2 density:
-You should download the dataset from the following site:
+You should download the weekly dataset from the following site:
 ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt
 and extract the data of the last two years to create a file named co2w.txt.
 
