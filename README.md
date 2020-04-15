@@ -105,12 +105,12 @@ co2_v2.png image file should be created.
 You should download the weekly dataset from the following site:
 ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt
 and extract the data of the last two years to create a file named co2w.txt.
-
-
+<br>
 Assignment:
 You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.txt
-
-Assignment: Build the same program based on Python2.X.
+<br>
+Assignment: 
+Build the same program based on Python2.X.
 
 </pre>
 
