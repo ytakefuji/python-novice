@@ -108,6 +108,9 @@ and extract the data of the last two years to create a file named co2w.txt.
 
 Assignment:
 You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.txt
+
+Assignment: Build the same program based on Python2.X.
+
 </pre>
 
 <pre>
