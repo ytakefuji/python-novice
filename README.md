@@ -26,6 +26,8 @@ For Python programming:
   with 3 extracted column chunks from the csv file. 
  -Plot a graph with 5th column (y-axis) and x-axis (first column+second column:year_month)
 
+#            decimal     average   interpolated    trend    #days
+#             date                             (season corr)
 2015  12    2015.958      401.85      401.85      402.51     30
 2016   1    2016.042      402.56      402.56      402.27     27
 2016   2    2016.125      404.12      404.12      403.31     25
