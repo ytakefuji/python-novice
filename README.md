@@ -172,3 +172,11 @@ plt.plot(t,p,'-b')
 plt.legend(('real','randomF'))
 plt.show()
 </pre>
+
+<pre>
+# assignment: 
+# read titanic folder and develope a binary classification program using random forest classification.
+# show what are importances in the features.
+# You must understand preprocessing and train_test_split.
+# build a program using machine-learning-in-medicine/pima-indians-diabetes.csv 
+</pre>
