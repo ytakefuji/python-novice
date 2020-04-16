@@ -184,17 +184,18 @@ plt.show()
 </pre>
 
 <pre>
-# assignment: random forest classification using ice.csv
+# assignment: random forest using ice.csv
+# build regression program and classification programs using ice.csv respectively.
 # Use train_test_split function which is described in:
 # https://github.com/ytakefuji/titanic
 # where test_size=0.2 should be used in your program.
 </pre>
 
 <pre>
-# assignment: Binary classification using random forest classification with
+# assignment: Binary classification using random forest classification.
 # read titanic folder and develope a binary classification program
 # https://github.com/ytakefuji/titanic
-# train_test_split function.
+# use train_test_split function.
 # show what are importances in the features.
 # You must understand preprocessing and train_test_split.
 # build a program using machine-learning-in-medicine/pima-indians-diabetes.csv 
@@ -203,5 +204,5 @@ plt.show()
 <pre>
 # assignment: binary classification with SMOTE
 # use SMOTE for imbalanced data in pima-indians-diabetes.csv.
-# develope a binary classification with random forest.
+# develope a binary classification with random forest classification.
 </pre>
