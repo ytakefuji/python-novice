@@ -202,6 +202,6 @@ plt.show()
 
 <pre>
 # assignment: binary classification with SMOTE
-# use SMOTE for imbalanced data in pima.
+# use SMOTE for imbalanced data in pima-indians-diabetes.csv.
 # develope a binary classification with random forest.
 </pre>
