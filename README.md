@@ -117,6 +117,8 @@ Build the same program based on Python2.X.
 <pre>
 # There are regression and classification in supervised machine learning.
 #Machine Learning: Random Forest Regression
+# download ice.csv from:
+# https://raw.githubusercontent.com/ytakefuji/ensemble-machine-learning/master/ice.csv
 # ice.csv: ice(ice sales),temp(highest temperature),street(no. of pedestrians)
 date,ice,temp,street
 2012/8/1,12220,26,4540
@@ -182,9 +184,23 @@ plt.show()
 </pre>
 
 <pre>
-# assignment: 
-# read titanic folder and develope a binary classification program using random forest classification.
+# assignment: random forest classification using ice.csv
+# Use train_test_split function which is described in:
+# https://github.com/ytakefuji/titanic
+# where test_size=0.2 should be used in your program.
+</pre>
+
+<pre>
+# assignment: Binary classification using random forest classification with
+# read titanic folder and develope a binary classification program
+# https://github.com/ytakefuji/titanic
+# train_test_split function.
 # show what are importances in the features.
 # You must understand preprocessing and train_test_split.
 # build a program using machine-learning-in-medicine/pima-indians-diabetes.csv 
+</pre>
+
+<pre>
+# use SMOTE for imbalanced data in pima.
+# develope a binary classification with random forest.
 </pre>
