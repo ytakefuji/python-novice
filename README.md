@@ -40,18 +40,25 @@ For Python programming:
 </pre>
 <pre>
 # how to read csv file co2_v2.txt which should be in the same folder
-# in order to check the existence of co2_v2.txt, run ls command
+# download cov2_v2.txt file from 
+# https://raw.githubusercontent.com/ytakefuji/global-warming/master/co2_v2.txt
+# run the following command in ipython
 co2=open('co2_v2.txt','r',encoding='utf-8')
 # comment
 """
 comments
 comments
 """
-# create an empty list called data
+# create an empty list called data 
 data=[]
 # or data=list()
 # in order to extract 3 columns (year, month, co2) and create 2 columns (year_month, co2)
-# for loop, list append
+# for loop, list string append 
+# a single space indicates internal structure of for loop
+# remember co2_v2.txt has 7 chunks: each chunk will be stored in variables (a,b,c,d,e,f,g)
+# concatenate strings by using the + operator
+# single quote (') or double quote (") makes a string: '_' and ','
+# split() separates chunks of a line of co2_v2.txt
 for i in co2:
  a,b,c,d,e,f,g=i.split()
  data.append(a+'_'+b+','+e)
