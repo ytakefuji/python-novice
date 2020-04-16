@@ -123,7 +123,7 @@ Build the same program based on Python2.X.
 
 <pre>
 # There are regression and classification in supervised machine learning.
-#Machine Learning: Random Forest Regression
+# Machine Learning: Random Forest Regression (floating point)
 # download ice.csv from:
 # https://raw.githubusercontent.com/ytakefuji/ensemble-machine-learning/master/ice.csv
 # ice.csv: ice(ice sales),temp(highest temperature),street(no. of pedestrians)
@@ -169,7 +169,7 @@ plt.show()
 </pre>
 <pre>
 
-# Machine Learning: Random Forest Classification
+# Machine Learning: Random Forest Classification (integer)
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
