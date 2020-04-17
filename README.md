@@ -37,6 +37,7 @@ For Python programming:
 2016   6    2016.458      406.83      406.83      404.49     26
 2016   7    2016.542      404.41      404.41      404.07     28
 2016   8    2016.625      402.27      402.27      404.18     23
+...
 </pre>
 <pre>
 # how to read csv file co2_v2.txt which should be in the same folder
@@ -140,7 +141,6 @@ date,ice,temp,street
 
 import pandas as pd
 import numpy as np
-import statsmodels.api as sm
 from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 # read ice.csv file
@@ -172,7 +172,6 @@ plt.show()
 # Machine Learning: Random Forest Classification (integer)
 import pandas as pd
 import numpy as np
-import statsmodels.api as sm
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 data=pd.read_csv('ice.csv')
@@ -205,7 +204,7 @@ plt.show()
 # use train_test_split function.
 # show what are importances in the features.
 # You must understand preprocessing and train_test_split.
-# build a program using machine-learning-in-medicine/pima-indians-diabetes.csv 
+# build a program using dataset of machine-learning-in-medicine/pima-indians-diabetes.csv 
 </pre>
 
 <pre>
