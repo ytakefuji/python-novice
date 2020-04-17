@@ -45,11 +45,11 @@ For Python programming:
 # https://raw.githubusercontent.com/ytakefuji/global-warming/master/co2_v2.txt
 # run the following command in ipython
 co2=open('co2_v2.txt','r',encoding='utf-8')
-# comment
-"""
+# comment by #
+'''
+comments by three single quote (')
 comments
-comments
-"""
+'''
 # create an empty list called data 
 data=[]
 # or data=list()
