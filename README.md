@@ -206,6 +206,23 @@ plt.show()
 # show what are importances in the features.
 # You must understand preprocessing and train_test_split.
 # build a program using dataset of machine-learning-in-medicine/pima-indians-diabetes.csv 
+# pima csv (9 columns)
+6,148,72,35,0,33.6,0.627,50,1
+1,85,66,29,0,26.6,0.351,31,0
+8,183,64,0,0,23.3,0.672,32,1
+1,89,66,23,94,28.1,0.167,21,0
+0,137,40,35,168,43.1,2.288,33,1
+5,116,74,0,0,25.6,0.201,30,0
+3,78,50,32,88,31.0,0.248,26,1
+10,115,0,0,0,35.3,0.134,29,0
+...
+# parameter names
+pima.columns=['pregnant','plasmaGlucose','bloodP','skinThick','serumInsulin','weight','pedigree','age','diabetes']
+# feature_importances
+dic=dict(zip(X.columns,clf.feature_importances_))
+for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
+    print(item[0],round(item[1],4))
+
 </pre>
 
 <pre>
