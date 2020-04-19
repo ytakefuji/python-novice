@@ -28,7 +28,7 @@ In [2]: b=' '
 In [3]: c='yoshiyasu'
 In [4]: a+b+c
 Out[4]: 'takefuji yoshiyasu'
-#
+# logical_or each element in two lists
 In [1]: a=[0,1,0,0]
 In [2]: len(a)
 Out[2]: 4
@@ -36,6 +36,7 @@ In [3]: b=[1,1,0,1]
 In [4]: import numpy as np
 In [5]: np.logical_or(a,b).astype(int)
 Out[5]: array([1, 1, 0, 1])
+# append two lists
 In [6]: a+b
 Out[6]: [0, 1, 0, 0, 1, 1, 0, 1]
 
