@@ -36,6 +36,10 @@ In [3]: b=[1,1,0,1]
 In [4]: import numpy as np
 In [5]: np.logical_or(a,b).astype(int)
 Out[5]: array([1, 1, 0, 1])
+# convert numpy array to list
+In [5]: np.logical_or(a,b).astype(int).tolist()
+Out[5]: [1, 1, 0, 1]
+
 # append two lists
 In [6]: a+b
 Out[6]: [0, 1, 0, 0, 1, 1, 0, 1]
