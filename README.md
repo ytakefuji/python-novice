@@ -31,7 +31,19 @@ In [5]: np.logical_or(a,b).astype(int)
 Out[5]: array([1, 1, 0, 1])
 In [6]: a+b
 Out[6]: [0, 1, 0, 0, 1, 1, 0, 1]
- 
+# add each element in two lists
+In [1]: a=[0,1,0,0]
+In [2]: b=[1,1,0,1]
+In [3]: from operator import add
+In [4]: list(map(add,a,b))
+Out[4]: [1, 2, 0, 1]
+# add each element in two lists using numpy
+In [5]: import numpy as np
+In [6]: a=np.array(a)
+In [7]: b=np.array(b)
+In [8]: a+b
+Out[8]: array([1, 2, 0, 1])
+
 1. The goal of this example: 
  -read a csv file (7 columns) and create a csv file co2_v2 (2 columns) 
   with 3 extracted column chunks from the csv file. 
