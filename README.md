@@ -36,7 +36,7 @@ In [3]: b=[1,1,0,1]
 In [4]: import numpy as np
 In [5]: np.logical_or(a,b).astype(int)
 Out[5]: array([1, 1, 0, 1])
-# convert numpy array to list
+# convert numpy array to list using tolist()
 In [5]: np.logical_or(a,b).astype(int).tolist()
 Out[5]: [1, 1, 0, 1]
 
@@ -57,6 +57,8 @@ In [6]: a=np.array(a)
 In [7]: b=np.array(b)
 In [8]: a+b
 Out[8]: array([1, 2, 0, 1])
+# to_string(): to render the given DataFrame to a console-friendly tabular output. 
+
 </pre>
 <pre>
 # assignment
