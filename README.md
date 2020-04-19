@@ -20,6 +20,17 @@ $ which python
 For Python programming:
  -space describes the structure:
  -to practice Python, use ipython (interactive Python)
+0. numbers(integer, floating), list, string
+$ ipython
+In [1]: a=[0,1,0,0]
+In [2]: len(a)
+Out[2]: 4
+In [3]: b=[1,1,0,1]
+In [4]: import numpy as np
+In [5]: np.logical_or(a,b).astype(int)
+Out[5]: array([1, 1, 0, 1])
+In [6]: a+b
+Out[6]: [0, 1, 0, 0, 1, 1, 0, 1]
  
 1. The goal of this example: 
  -read a csv file (7 columns) and create a csv file co2_v2 (2 columns) 
