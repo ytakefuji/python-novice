@@ -22,6 +22,13 @@ For Python programming:
  -to practice Python, use ipython (interactive Python)
 0. numbers(integer, floating), list, string
 $ ipython
+# concatenate strings
+In [1]: a='takefuji'
+In [2]: b=' '
+In [3]: c='yoshiyasu'
+In [4]: a+b+c
+Out[4]: 'takefuji yoshiyasu'
+#
 In [1]: a=[0,1,0,0]
 In [2]: len(a)
 Out[2]: 4
