@@ -43,6 +43,14 @@ In [6]: a=np.array(a)
 In [7]: b=np.array(b)
 In [8]: a+b
 Out[8]: array([1, 2, 0, 1])
+<pre>
+# assignment
+# subtract each element in two lists
+</pre>
+<pre>
+# assignment
+# logical_AND each element in two lists.
+</pre>
 
 1. The goal of this example: 
  -read a csv file (7 columns) and create a csv file co2_v2 (2 columns) 
@@ -103,6 +111,10 @@ f.close()
 2016_7,404.41
 2016_8,402.27
 ...
+</pre>
+<pre>
+# assignment:
+# print co2 all data only
 </pre>
 
 <pre>
