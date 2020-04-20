@@ -57,6 +57,21 @@ In [6]: a=np.array(a)
 In [7]: b=np.array(b)
 In [8]: a+b
 Out[8]: array([1, 2, 0, 1])
+# add each element in two lists with rounded
+In [1]: a=[0.1,1.3,3.6]
+In [2]: import numpy as np                                                 
+In [3]: np.add(a,a)  
+Out[3]: array([0.2, 2.6, 7.2])
+In [4]: np.add(a,a).round()                                                
+Out[4]: array([0., 3., 7.])
+# add (append) each string in two lists using zip
+In [5]: a=['take','fuji']
+In [6]: [i+j for i,j in zip(a,a)]                                         
+Out[6]: ['taketake', 'fujifuji']
+In [7]: b=['fuji','san']                                                  
+In [8]: [i+j for i,j in zip(a,b)]                                         
+Out[8]: ['takefuji', 'fujisan']
+
 # to_string(): to render the given DataFrame to a console-friendly tabular output. 
 
 </pre>
