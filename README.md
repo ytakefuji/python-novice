@@ -89,6 +89,17 @@ Out[8]: ['takefuji', 'fujisan']
 </pre>
 
 <pre>
+# download ice.csv from 
+http://web.sfc.keio.ac.jp/~takefuji/ice.csv
+# ice.csv is composed of 4 columns and 31 instances: date,ice,temp,street
+# assignment:
+# read ice.csv file and find the largest value in ice. 
+# show temp and street values when ice is the largest value.
+# assignment:
+# show ice value when street is the largest value.
+</pre>
+
+<pre>
 1. The goal of this example: 
  -read a csv file (7 columns) and create a csv file co2_v2 (2 columns) 
   with 3 extracted column chunks from the csv file. 
