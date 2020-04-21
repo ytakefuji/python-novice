@@ -3,8 +3,8 @@
 The goal of "python-novice" is for novice to learn the basic csv file manipulations 
 (read, write, update, columns operations) and to practice basic supervised machine 
 learning including classification and regression. Integer, floating point, string, 
-list operations are introduced. Data preprocessing, and data augmentation are addressed. 
-Graph plotting is also described using matplotlib.
+and list operations are introduced. Data preprocessing, and data augmentation are addressed
+for machine learning. Graph plotting is also described using matplotlib.
 
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 Therefore, all explanations are based on Python 3.X.
