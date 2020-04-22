@@ -113,7 +113,11 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 # ice.csv is composed of 4 columns and 31 instances: date,ice,temp,street
 # assignment:
 # read ice.csv file and find the largest value in ice. 
-# show temp and street values when ice is the largest value.
+# hint: d['ice'] shows the max value in ice
+# hint: d['ice'].idxmax() shows index of the max value in ice
+# hint: d['temp'][d['ice'].idxmax()] shows temp value when ice is the max value.
+# show street value when ice is the max value.
+#  
 # assignment:
 # show ice value when street is the largest value.
 </pre>
