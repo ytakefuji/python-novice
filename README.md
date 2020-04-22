@@ -51,7 +51,7 @@ Out[5]: array([1, 1, 0, 1])
 # convert numpy array to list using tolist()
 In [5]: np.logical_or(a,b).astype(int).tolist()
 Out[5]: [1, 1, 0, 1]
-# tolist() function return a list of the values
+# tolist() function returns a list of the values
 
 # append two lists
 In [6]: a+b
