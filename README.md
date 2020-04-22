@@ -23,7 +23,8 @@ $ python -V
 To find the location of Python, run the following command
 $ which python
 
-# before running your python or ipython, run source command for correcting PATH of python or ipython:
+# before running your python or ipython, run source command for correcting PATH of 
+# python or ipython:
 $ source .bashrc
 
 For Python programming:
