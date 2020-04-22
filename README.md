@@ -38,6 +38,7 @@ In [2]: b=' '
 In [3]: c='yoshiyasu'
 In [4]: a+b+c
 Out[4]: 'takefuji yoshiyasu'
+
 # logical_or each element in two lists
 In [1]: a=[0,1,0,0]
 In [2]: len(a)
@@ -46,6 +47,7 @@ In [3]: b=[1,1,0,1]
 In [4]: import numpy as np
 In [5]: np.logical_or(a,b).astype(int)
 Out[5]: array([1, 1, 0, 1])
+
 # convert numpy array to list using tolist()
 In [5]: np.logical_or(a,b).astype(int).tolist()
 Out[5]: [1, 1, 0, 1]
@@ -60,6 +62,10 @@ In [2]: b=[1,1,0,1]
 In [3]: from operator import add
 In [4]: list(map(add,a,b))
 Out[4]: [1, 2, 0, 1]
+# map() function returns a map object(which is an iterator) of the results after 
+# applying the given function to each item of a given iterable (list, tuple etc.)
+# Syntax :
+# map(fun, iter)
 
 # add each element in two lists using numpy
 In [5]: import numpy as np
@@ -67,6 +73,7 @@ In [6]: a=np.array(a)
 In [7]: b=np.array(b)
 In [8]: a+b
 Out[8]: array([1, 2, 0, 1])
+
 # add each element (floating point) in two lists with rounded
 In [1]: a=[0.1,1.3,3.6]
 In [2]: import numpy as np                                                 
@@ -74,6 +81,7 @@ In [3]: np.add(a,a)
 Out[3]: array([0.2, 2.6, 7.2])
 In [4]: np.add(a,a).round()                                                
 Out[4]: array([0., 3., 7.])
+
 # add (append) each element (string) in two lists using zip
 In [5]: a=['take','fuji']
 In [6]: [i+j for i,j in zip(a,a)]                                         
