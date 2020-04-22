@@ -124,8 +124,11 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 # show max value in ice and street.
 # hint: dd=d.drop(['date','temp'],axis=1) shows eliminating date and temp columns from d.
 # hint: stack() reshapes multiple indexes to single index.
-#
 # show index of max value in ice and street.
+#
+# assignment:
+# sort dd based on 'ice' value.
+# hint: sort_values('ice')
 </pre>
 
 <pre>
