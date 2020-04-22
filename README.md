@@ -23,6 +23,9 @@ $ python -V
 To find the location of Python, run the following command
 $ which python
 
+# before running your python or ipython, run source command for correcting PATH:
+$ source .bashrc
+
 For Python programming:
  -space describes the structure:
  -to practice Python, use ipython (interactive Python)
