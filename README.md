@@ -145,7 +145,7 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 co2=open('co2_v2.txt','r',encoding='utf-8')
 # comment by #
 '''
-comments by three single quote (')
+comments by three single quotes (''')
 comments
 '''
 # create an empty list called data 
