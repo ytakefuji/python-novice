@@ -59,6 +59,8 @@ In [9]: isinstance(a,float)
 Out[9]: False
 
 # set function
+# set(): to convert any of the iterable to the distinct element 
+# and sorted sequence of iterable elements.
 In [1]: a = set('abracadabra')
 In [2]: a
 # unique letters in a
