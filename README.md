@@ -352,7 +352,7 @@ plt.show()
 </pre>
 
 <pre>
-# ASSIGNMENT Binary classification using random forest classification.
+# ASSIGNMENT: binary classification using random forest classification.
 # read titanic folder and develope a binary classification program
 # https://github.com/ytakefuji/titanic
 # use train_test_split function.
