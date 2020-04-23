@@ -24,6 +24,8 @@ is also described.
 # file type:
 # "neural network parallel computing" filetype:pdf
 # there are many more tips in google search.
+# ATTRACT INFORMATION WITH SUITABLE KEYWORDS.
+# KEYWORDS play a key role in obtaining very useful information.
 # [end of important message]
 
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
