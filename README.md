@@ -39,6 +39,18 @@ In [3]: c='yoshiyasu'
 In [4]: a+b+c
 Out[4]: 'takefuji yoshiyasu'
 
+# statistics
+In [1]:  a=[0,1,2,3,0]
+In [2]: import statistics as st
+In [3]: st.mean(a)
+Out[3]: 1.2
+In [4]: st.mode(a)
+Out[4]: 0
+In [5]: st.stdev(a)
+Out[5]: 1.3038404810405297
+In [6]: st.variance(a)
+Out[6]: 1.7
+
 # logical_or each element in two lists
 In [1]: a=[0,1,0,0]
 In [2]: len(a)
