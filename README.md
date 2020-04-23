@@ -37,7 +37,7 @@ https://docs.conda.io/en/latest/miniconda.html
 On Windows, download Python3.7 exe file and click it
 On Mac, download Python sh file and run 
 $ bash the downloaded .sh file on bash shell.
-All examples can be practiced on bash shell.
+All examples in python-novice can be practiced on bash shell.
 
 In order to install Python library, run the following command
 $ pip install library_name (matplotlib, pandas, ipython,...)
