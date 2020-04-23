@@ -41,6 +41,10 @@ All examples in python-novice can be practiced on bash shell.
 
 In order to install Python library, run the following command
 $ pip install library_name (matplotlib, pandas, ipython,...)
+# if you don't have pip command, use conda
+$ conda update conda
+$ conda install pip
+$ pip install -U pip
 To find the library name,
 $ pip search library_name
 
