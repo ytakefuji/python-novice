@@ -91,7 +91,7 @@ In [7]: b=['fuji','san']
 In [8]: [i+j for i,j in zip(a,b)]                                         
 Out[8]: ['takefuji', 'fujisan']
 
-# to_string(): to render the given DataFrame to a console-friendly tabular output. 
+# to_string(): to render a string representation from given series object 
 
 </pre>
 <pre>
