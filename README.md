@@ -52,6 +52,10 @@ In [6]: f'{st.stdev(a):3.2f}'
 Out[6]: '1.30'
 In [7]: st.variance(a)
 Out[7]: 1.7
+In [8]: isinstance(a,list)
+Out[8]: True
+In [9]: isinstance(a,float)
+Out[9]: False
 
 # logical_or each element in two lists
 In [1]: a=[0,1,0,0]
