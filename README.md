@@ -46,6 +46,7 @@ $ pip install library_name (matplotlib, pandas, ipython,...)
 $ conda update conda
 $ conda install pip
 $ pip install -U pip
+$ pip install ipython
 To find the library name,
 $ pip search library_name
 
