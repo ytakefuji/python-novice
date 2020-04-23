@@ -48,8 +48,10 @@ In [4]: st.mode(a)
 Out[4]: 0
 In [5]: st.stdev(a)
 Out[5]: 1.3038404810405297
-In [6]: st.variance(a)
-Out[6]: 1.7
+In [6]: f'{st.stdev(a):3.2f}'
+Out[6]: '1.30'
+In [7]: st.variance(a)
+Out[7]: 1.7
 
 # logical_or each element in two lists
 In [1]: a=[0,1,0,0]
