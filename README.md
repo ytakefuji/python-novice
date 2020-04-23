@@ -43,6 +43,9 @@ Run the bash command for Windows on Ubuntu or on Mac
 $ bash the downloaded .sh file on bash shell.
 All examples in python-novice can be practiced on bash shell.
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
+# before running your conda, pip, python, or ipython, run source command for correcting PATH of 
+# python or ipython:
+$ source .bashrc
 
 In order to install Python library, run the following command
 $ pip install library_name (matplotlib, pandas, ipython,...)
@@ -59,9 +62,6 @@ $ python -V
 To find the location of Python, run the following command
 $ which python
 
-# before running your python or ipython, run source command for correcting PATH of 
-# python or ipython:
-$ source .bashrc
 
 For Python programming:
  -space describes the structure:
