@@ -65,6 +65,14 @@ In [1]: a = set('abracadabra')
 In [2]: a
 # unique letters in a
 Out[2]: {'a', 'b', 'c', 'd', 'r'}
+#
+In [3]: basket= ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+In [4]: basket
+Out[4]: ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+In [5]: set(basket)
+Out[5]: {'apple', 'banana', 'orange', 'pear'}
+In [6]: basket.count('apple')
+Out[6]: 2
 
 # logical_or each element in two lists
 In [1]: a=[0,1,0,0]
