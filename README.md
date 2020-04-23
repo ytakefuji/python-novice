@@ -4,7 +4,7 @@ The goal of "python-novice" is for novice to learn the basic csv file manipulati
 (read, write, update, columns operations) and to practice basic supervised machine 
 learning including classification and regression. Integer, floating point, string, 
 and list operations are introduced. Data preprocessing, and data augmentation are 
-addressed for machine learning. Graph plotting is also described using matplotlib.
+addressed for machine learning. Graph plotting using matplotlib is also described.
 
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 Therefore, all explanations are based on Python 3.X.
@@ -49,9 +49,9 @@ In [5]: np.logical_or(a,b).astype(int)
 Out[5]: array([1, 1, 0, 1])
 
 # convert numpy array to list using tolist()
+# tolist() function returns a list of the values
 In [5]: np.logical_or(a,b).astype(int).tolist()
 Out[5]: [1, 1, 0, 1]
-# tolist() function returns a list of the values
 
 # append two lists
 In [6]: a+b
