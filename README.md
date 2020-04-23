@@ -35,10 +35,14 @@ Therefore, all explanations are based on Python 3.X.
 In order to install Python, use miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
-On Windows, download Python3.7 exe file and click it
-On Mac, download Python sh file and run 
+On Windows, install ubuntu 18.04 using Microsoft Store, download Linux installer Python3.7 .sh file, not exe file.
+HINT: Start ubuntu on Windows and download miniconda .sh file by wget command with linked URL address.
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+On Mac, download MacOSX installer Python3.7 .sh file. 
+Run the bash command for Windows on Ubuntu or on Mac
 $ bash the downloaded .sh file on bash shell.
 All examples in python-novice can be practiced on bash shell.
+For Windows users, you should download VcXsrv Windows X Server exe file and install it.
 
 In order to install Python library, run the following command
 $ pip install library_name (matplotlib, pandas, ipython,...)
