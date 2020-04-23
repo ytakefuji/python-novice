@@ -14,6 +14,14 @@ is also described.
 # If you don't know "how to run bash shell on windows", DO google search.
 # For Mac users, DO google search using "how to run bash on Mac terminal"
 # Remember there is no perfect explanation for understanding something new.
+#
+# TIPS of google search: 
+# strings google search:
+# +"yoshiyasu takefuji" where plus '+' includes double-quoted (") phrase.
+# In -"yoshiyasu",  minus '-' excludes string "yoshiyasu".
+# site search: 
+# takefuji site:nature.com
+# there are many more tips in google search.
 # [end of important message]
 
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
