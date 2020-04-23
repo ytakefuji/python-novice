@@ -21,6 +21,8 @@ is also described.
 # In -"yoshiyasu",  minus '-' excludes string "yoshiyasu".
 # site search: 
 # takefuji site:nature.com
+# file type:
+# "neural network parallel computing" filetype:pdf
 # there are many more tips in google search.
 # [end of important message]
 
