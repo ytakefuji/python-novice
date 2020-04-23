@@ -3,8 +3,9 @@
 The goal of "python-novice" is for novice to learn the basic csv file manipulations 
 (read, write, update, columns operations) and to practice basic supervised machine 
 learning including classification and regression. Integer, floating point, string, 
-and list operations are introduced. Data preprocessing, and data augmentation are 
-addressed for machine learning. Graph plotting using matplotlib is also described.
+array, list, and set operations are introduced. Data preprocessing, and data 
+augmentation are addressed for machine learning. Graph plotting using matplotlib
+is also described.
 
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 Therefore, all explanations are based on Python 3.X.
@@ -30,7 +31,7 @@ $ source .bashrc
 For Python programming:
  -space describes the structure:
  -to practice Python, use ipython (interactive Python)
-0. numbers(integer, floating), list, string
+0. numbers(integer, floating), list, string, set
 $ ipython
 # concatenate strings
 In [1]: a='takefuji'
@@ -48,6 +49,7 @@ In [4]: st.mode(a)
 Out[4]: 0
 In [5]: st.stdev(a)
 Out[5]: 1.3038404810405297
+# float format
 In [6]: f'{st.stdev(a):3.2f}'
 Out[6]: '1.30'
 In [7]: st.variance(a)
@@ -130,15 +132,15 @@ Out[8]: ['takefuji', 'fujisan']
 
 </pre>
 <pre>
-# assignment
+# ASSIGNMENT:
 # subtract each element in two lists
 </pre>
 <pre>
-# assignment
+# ASSIGNMENT:
 # logical_AND each element in two lists.
 </pre>
 <pre>
-# assignment
+# ASSIGNMENT:
 # subtract each element (string) in two lists
 </pre>
 
@@ -146,14 +148,15 @@ Out[8]: ['takefuji', 'fujisan']
 # download ice.csv from 
 http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 # ice.csv is composed of 4 columns and 31 instances: date,ice,temp,street
-# assignment:
+
+# ASSIGNNMENT:
 # read ice.csv file and find the largest value in ice. 
 # hint: d['ice'].max() shows the max value in ice
 # hint: d['ice'].idxmax() shows index of the max value in ice
 # hint: d['temp'][d['ice'].idxmax()] shows temp value when ice is the max value.
 # show street value when ice is the max value.
 #  
-# assignment:
+# ASSIGNMENT:
 # show ice value when street is the max value.
 #
 # show max value in ice and street.
@@ -161,7 +164,7 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 # hint: stack() reshapes multiple indexes to single index.
 # show index of max value in ice and street.
 #
-# assignment:
+# ASSIGNMENT:
 # sort dd based on 'ice' value.
 # hint: sort_values('ice')
 </pre>
@@ -186,7 +189,7 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 ...
 </pre>
 <pre>
-# how to read csv file co2_v2.txt which should be in the same folder
+# read csv file co2_v2.txt which should be in the same folder
 # download cov2_v2.txt file from 
 # https://raw.githubusercontent.com/ytakefuji/global-warming/master/co2_v2.txt
 # run the following command in ipython
@@ -228,7 +231,7 @@ f.close()
 ...
 </pre>
 <pre>
-# assignment:
+# ASSIGNMENT:
 # print co2 all data only
 </pre>
 
@@ -265,10 +268,10 @@ You should download the weekly dataset from the following site:
 ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_weekly_mlo.txt
 and extract the data of the last two years to create a file named co2w.txt.
 <br>
-Assignment:
+ASSIGNMENT:
 You should plot a graph with x-axis(year_month_day) and y-axis(co2) using co2w.txt
 <br>
-Assignment: 
+ASSIGNMENT: 
 Build the same program based on Python2.X.
 
 </pre>
@@ -341,7 +344,7 @@ plt.show()
 </pre>
 
 <pre>
-# assignment: random forest using ice.csv
+# ASSIGNMENT: random forest using ice.csv
 # build regression program and classification programs using ice.csv respectively.
 # Use train_test_split function which is described in:
 # https://github.com/ytakefuji/titanic
@@ -349,7 +352,7 @@ plt.show()
 </pre>
 
 <pre>
-# assignment: Binary classification using random forest classification.
+# ASSIGNMENT Binary classification using random forest classification.
 # read titanic folder and develope a binary classification program
 # https://github.com/ytakefuji/titanic
 # use train_test_split function.
@@ -376,7 +379,7 @@ for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
 </pre>
 
 <pre>
-# assignment: binary classification with SMOTE
+# ASSIGNMENT: binary classification with SMOTE
 # use SMOTE for imbalanced data in pima-indians-diabetes.csv.
 # develope a binary classification with random forest classification.
 </pre>
