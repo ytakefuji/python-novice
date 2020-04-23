@@ -7,14 +7,14 @@ array, list, and set operations are introduced. Data preprocessing, and data
 augmentation are addressed for machine learning. Graph plotting using matplotlib
 is also described.
 
-# important message to novice
-If you don't know something (technical terms) or errors, use google search.
-You should copy and paste a part of error message for fixing errors.
- 
-If you don't know "how to run bash shell on windows", DO google search.
-For Mac users, DO google search using "how to run bash on Mac terminal"
-Remember there is no perfect explanation for understanding something new.
-# end of important message
+# [important message to novice]
+# If you don't know technical terms, "how to install", "how to run" or "fixing errors", 
+# use google search. You should copy and paste a part of error message for fixing errors.
+# 
+# If you don't know "how to run bash shell on windows", DO google search.
+# For Mac users, DO google search using "how to run bash on Mac terminal"
+# Remember there is no perfect explanation for understanding something new.
+# [end of important message]
 
 There are Python 2.X and 3.X. Python 2.X will be obsolete. 
 Therefore, all explanations are based on Python 3.X.
