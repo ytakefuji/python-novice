@@ -14,6 +14,7 @@ is also described.
 # If you don't know "how to run bash shell on windows", DO google search.
 # For Mac users, DO google search using "how to run bash on Mac terminal"
 # Remember there is no perfect explanation for understanding something new.
+# Practice makes perfect!
 #
 # TIPS of google search: 
 # strings google search:
