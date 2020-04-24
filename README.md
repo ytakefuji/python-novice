@@ -73,7 +73,9 @@ $ conda install xxx
 $ conda install -c conda-forge xxx
 # remove xxx library
 $ conda remove xxx
+# pip update:
 $ pip install -U pip
+# pip install ipython
 $ pip install ipython
 # pip uninstall xxx
 $ pip uninstall xxx
