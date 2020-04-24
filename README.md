@@ -50,8 +50,8 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 # Install wget: 
 $ brew install wget
 
-Run the bash command for bash Ubuntu on Windows or bash on Mac
-$ bash the downloaded .sh file on bash shell.
+# Run the bash command for bash Ubuntu on Windows or bash on Mac
+# bash the downloaded .sh file on bash shell.
 $ bash Miniconda3-latest-*
 # asterisk (*): wildcard to stand for any sequence of characters
 # period (.): any single character
