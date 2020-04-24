@@ -92,6 +92,8 @@ $ sudo apt upgrade
 $ sudo apt dist-upgrade
 # to install xxx library:
 $ sudo apt install xxx
+# to purge xxx library:
+$ sudo apt purge xxx
 
 
 For Python programming:
