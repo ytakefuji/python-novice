@@ -45,9 +45,9 @@ $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 On Mac, download MacOSX installer Python3.7 .sh file. 
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 # if wget is not available, follow the instructions:
-# Install Homebrew. 
+# Install Homebrew: 
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# Install wget. 
+# Install wget: 
 $ brew install wget
 
 Run the bash command for bash Ubuntu on Windows or bash on Mac
@@ -65,18 +65,33 @@ $ source .bashrc
 
 In order to install Python library, run the following command
 $ pip install library_name (matplotlib, pandas, ipython,...)
-# if you don't have pip command, use conda to install 
+# if you don't have pip command, use conda:
 $ conda update conda
-$ conda install pip
+# xxx is the target library
+$ conda install xxx
+# search further with conda-forge
+$ conda install -c conda-forge xxx
+# remove xxx library
+$ conda remove xxx
 $ pip install -U pip
 $ pip install ipython
-To find the library name,
+# pip uninstall xxx
+$ pip uninstall xxx
+To find the library name:
 $ pip search library_name
 
 In order to know python version
 $ python -V
 To find the location of Python, run the following command
 $ which python
+
+# For windows users,
+# update and upgrade libraries:
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt dist-upgrade
+# to install xxx library:
+$ sudo apt install xxx
 
 
 For Python programming:
