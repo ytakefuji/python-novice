@@ -96,9 +96,10 @@ $ sudo apt dist-upgrade
 $ sudo apt install xxx
 # to purge xxx library:
 $ sudo apt purge xxx
---------------------------------------------------------------
---------------------------------------------------------------
+==================================================
+</pre>
 
+<pre>
 For Python programming:
  -space describes the structure:
  -to practice Python, use ipython (interactive Python)
