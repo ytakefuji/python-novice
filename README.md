@@ -43,10 +43,19 @@ $ sudo apt install wget
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 On Mac, download MacOSX installer Python3.7 .sh file. 
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+# if wget is not available, follow the instructions:
+# Install Homebrew. 
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Install wget. 
+$ brew install wget
 
-Run the bash command for bash Ubuntu on Windows or on Mac
+Run the bash command for bash Ubuntu on Windows or bash on Mac
 $ bash the downloaded .sh file on bash shell.
-$ bash Miniconda...
+$ bash Miniconda3-latest-*
+# asterisk (*): wildcard to stand for any sequence of characters
+# period (.): any single character
+
 All examples in python-novice can be practiced on bash shell.
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
 
@@ -56,7 +65,7 @@ $ source .bashrc
 
 In order to install Python library, run the following command
 $ pip install library_name (matplotlib, pandas, ipython,...)
-# if you don't have pip command, use conda
+# if you don't have pip command, use conda to install 
 $ conda update conda
 $ conda install pip
 $ pip install -U pip
