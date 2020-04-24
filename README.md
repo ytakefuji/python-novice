@@ -36,9 +36,9 @@ In order to install Python, use miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
 On Windows, install ubuntu 18.04 using Microsoft Store, download Linux installer 
-Python3.7 .sh file, not exe file.
+Python3.7 .sh file, not exe file. And install it.
 HINT: Start bash ubuntu on Windows and download miniconda .sh file by wget command with linked URL address.
-HINT: If wget command is not available, install it by: 
+HINT: If wget command is not available, install it by apt command: 
 $ sudo apt install wget
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
