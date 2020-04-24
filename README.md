@@ -79,7 +79,7 @@ $ pip install -U pip
 $ pip install ipython
 # pip uninstall xxx
 $ pip uninstall xxx
-To find the library name:
+# To find the library name:
 $ pip search library_name
 
 In order to know python version
