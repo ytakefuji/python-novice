@@ -68,7 +68,8 @@ $ pip install library_name (matplotlib, pandas, ipython,...)
 # if you don't have pip command, use conda:
 $ conda update conda
 # xxx is the target library
-$ conda install xxx
+# conda install xxx
+$ conda install pip
 # search further with conda-forge
 $ conda install -c conda-forge xxx
 # remove xxx library
