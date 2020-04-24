@@ -147,6 +147,8 @@ In [5]: set(basket)
 Out[5]: {'apple', 'banana', 'orange', 'pear'}
 In [6]: basket.count('apple')
 Out[6]: 2
+# set() example is at:
+# https://github.com/ytakefuji/coin-weighing/blob/master/12coins.py
 
 # logical_or each element in two lists
 In [1]: a=[0,1,0,0]
