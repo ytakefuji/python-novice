@@ -35,14 +35,21 @@ Therefore, all explanations are based on Python 3.X.
 In order to install Python, use miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
-On Windows, install ubuntu 18.04 using Microsoft Store, download Linux installer Python3.7 .sh file, not exe file.
-HINT: Start ubuntu on Windows and download miniconda .sh file by wget command with linked URL address.
+On Windows, install ubuntu 18.04 using Microsoft Store, download Linux installer 
+Python3.7 .sh file, not exe file.
+HINT: Start bash ubuntu on Windows and download miniconda .sh file by wget command with linked URL address.
+HINT: If wget command is not available, install it by: 
+$ sudo apt install wget
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
 On Mac, download MacOSX installer Python3.7 .sh file. 
-Run the bash command for Windows on Ubuntu or on Mac
+
+Run the bash command for bash Ubuntu on Windows or on Mac
 $ bash the downloaded .sh file on bash shell.
+$ bash Miniconda...
 All examples in python-novice can be practiced on bash shell.
 For Windows users, you should download VcXsrv Windows X Server exe file and install it.
+
 # before running your conda, pip, python, or ipython, run source command for correcting PATH of 
 # python or ipython:
 $ source .bashrc
