@@ -17,7 +17,7 @@ is also described.
 # Practice makes perfect!
 #
 # TIPS of google search: 
-# strings google search:
+# strings or phrases google search:
 # +"yoshiyasu takefuji" where plus '+' includes double-quoted (") phrase.
 # In -"yoshiyasu",  minus '-' excludes string "yoshiyasu".
 # site search: 
