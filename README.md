@@ -47,7 +47,7 @@ On Mac, download MacOSX installer Python3.7 .sh file.
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 # if wget is not available, follow the instructions:
 # Install Homebrew: 
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Install wget: 
 $ brew install wget
 
