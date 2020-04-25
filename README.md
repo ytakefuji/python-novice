@@ -115,6 +115,7 @@ Out[4]: 'takefuji yoshiyasu'
 
 # statistics
 In [1]:  a=[0,1,2,3,0]
+# "as" is aliasing
 In [2]: import statistics as st
 In [3]: st.mean(a)
 Out[3]: 1.2
