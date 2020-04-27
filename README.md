@@ -457,6 +457,28 @@ for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
 
 <pre>
 # ASSIGNMENT: binary classification with SMOTE
+# HINT:
 # use SMOTE for imbalanced data in pima-indians-diabetes.csv.
+
+# read csv file and create pima
+import pandas as pd
+pima=pd.read_csv('pima-indians-diabetes.csv',encoding="shift-jis")
+
+# append parameter names
+pima.columns=['pregnant','plasmaGlucose','bloodP','skinThick','serumInsulin','weight','pedigree','age','diabetes']
+
+# create y and X from pima of csv file.
+y = pima['diabetes']
+X=pima.drop(['diabetes'],axis=1)
+
+# split X, y into train and test dataset.
+from sklearn.model_selection import train_test_split
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=54,shuffle=True)
+
+# apply SMOTE to only train dataset.
+from imblearn.over_sampling import SMOTE
+smt = SMOTE(random_state=90)
+X_train,y_train= smt.fit_resample(X_train,y_train)
+
 # develope a binary classification with random forest classification.
 </pre>
