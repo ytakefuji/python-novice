@@ -423,9 +423,12 @@ plt.show()
 <pre>
 # ASSIGNMENT: random forest using ice.csv
 # build regression program and classification programs using ice.csv respectively.
-# Use train_test_split function which is described in:
-# https://github.com/ytakefuji/titanic
-# where test_size=0.2 should be used in your program.
+# Use train_test_split function 
+# HINT:
+# from sklearn.model_selection import train_test_split
+# test_size=0.2 indicates testing 20% and training 80%.
+# X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=54,shuffle=True) 
+
 </pre>
 
 <pre>
@@ -448,7 +451,7 @@ plt.show()
 ...
 # parameter names
 pima.columns=['pregnant','plasmaGlucose','bloodP','skinThick','serumInsulin','weight','pedigree','age','diabetes']
-# feature_importances
+# how to print feature_importances
 dic=dict(zip(X.columns,clf.feature_importances_))
 for item in sorted(dic.items(), key=lambda x: x[1], reverse=True):
     print(item[0],round(item[1],4))
@@ -482,3 +485,33 @@ X_train,y_train= smt.fit_resample(X_train,y_train)
 
 # develope a binary classification with random forest classification.
 </pre>
+
+<pre>
+# Preprocessing
+# Titanic shows how to preprocess csv dataset.
+# titanic csv file:
+row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
+1,1st,1,Allen  Miss Elisabeth Walton,29,Southampton,"St Louis, MO",B-5,24160 L221,2,female
+2,1st,0,Allison  Miss Helen Loraine,2,Southampton,"Montreal, PQ / Chesterville, ON",C26,,,female
+3,1st,0,Allison  Mr Hudson Joshua Creighton,30,Southampton,"Montreal, PQ / Chesterville, ON",C26,,-135,male
+...
+# string data in csv file should be converted into int numbers.
+# read csv file
+titanic=pd.read_csv('titanic.csv',encoding="shift-jis")
+# remove 'name' and 'row.names' from csv
+titanic=titanic.drop(['name','row.names'],axis=1)
+# mean value is used for empty data. 
+mean=round(titanic['age'].mean(),2)
+titanic['age'].fillna(mean,inplace=True)
+# missing data will be replaced with "" empty string
+titanic.fillna("",inplace=True)
+# LabelEncoder is used for converting string to int
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+# except 'age'
+for i in titanic.columns.values.tolist():
+ if (i=='age'):
+  pass
+ else:
+  titanic[i] = le.fit_transform(titanic[i])
+
