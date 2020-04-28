@@ -170,8 +170,8 @@ In [7]: np.logical_or(a,b).astype(int).tolist()
 Out[7]: [1, 1, 0, 1]
 
 # append two lists
-In [6]: a+b
-Out[6]: [0, 1, 0, 0, 1, 1, 0, 1]
+In [8]: a+b
+Out[8]: [0, 1, 0, 0, 1, 1, 0, 1]
 
 # add each element in two lists
 In [1]: a=[0,1,0,0]
