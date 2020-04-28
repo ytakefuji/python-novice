@@ -159,8 +159,10 @@ In [2]: len(a)
 Out[2]: 4
 In [3]: b=[1,1,0,1]
 In [4]: import numpy as np
-In [5]: np.logical_or(a,b).astype(int)
-Out[5]: array([1, 1, 0, 1])
+In [5]: np.logical_or(a,b)
+Out[5]: array([ True,  True, False,  True])
+In [6]: np.logical_or(a,b).astype(int)
+Out[6]: array([1, 1, 0, 1])
 
 # convert numpy array to list using tolist()
 # tolist() function returns a list of the values
