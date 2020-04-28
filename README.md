@@ -173,6 +173,20 @@ Out[7]: [1, 1, 0, 1]
 In [8]: a+b
 Out[8]: [0, 1, 0, 0, 1, 1, 0, 1]
 
+# numpy hstack or vstack and shape
+In [9]: a=np.array(a)
+In [10]: b=np.array(b)
+In [11]: np.hstack((a,b))
+Out[11]: array([0, 1, 0, 0, 1, 1, 0, 1])
+In [12]: np.hstack((a,b)).shape
+Out[12]: (8,)
+In [13]: np.vstack((a,b))
+Out[13]:
+array([[0, 1, 0, 0],
+       [1, 1, 0, 1]])
+In [14]: np.vstack((a,b)).shape
+Out[14]: (2, 4)
+
 # add each element in two lists
 In [1]: a=[0,1,0,0]
 In [2]: b=[1,1,0,1]
