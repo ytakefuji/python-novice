@@ -174,6 +174,7 @@ In [8]: a+b
 Out[8]: [0, 1, 0, 0, 1, 1, 0, 1]
 
 # numpy hstack or vstack and shape
+# list has no shape function!
 In [9]: a=np.array(a)
 In [10]: b=np.array(b)
 In [11]: np.hstack((a,b))
