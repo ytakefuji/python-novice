@@ -389,6 +389,8 @@ $ python f_est.py
 const    -6.535112
 num      70.755618
 dtype: float64
+0.9996652912937387
+0.999665
 # result: f=-6.535+70.76*num
 <img src="./f_est.jpg" height=400 width=400>
 
