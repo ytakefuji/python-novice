@@ -7,6 +7,7 @@ x=sm.add_constant(x)
 y=data['f']
 est=sm.OLS(y,x).fit()
 print(est.params)
+print(est.rsquared)
 e=est.predict(x).astype(int)
 x=data['num']
 plt.scatter(x,y,c='red')
