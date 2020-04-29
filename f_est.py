@@ -8,6 +8,7 @@ y=data['f']
 est=sm.OLS(y,x).fit()
 print(est.params)
 print(est.rsquared)
+print(est.rsquared.astype(float).round(6))
 e=est.predict(x).astype(int)
 x=data['num']
 plt.scatter(x,y,c='red')
