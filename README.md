@@ -371,6 +371,7 @@ Build the same program based on Python2.X.
 </pre>
 
 ===============================================================
+---------------------------------------------------------------
 <pre>
 # plot a graph (x,y) coodinate points using f.csv file.
 # f.csv 
@@ -391,7 +392,8 @@ dtype: float64
 <img src="./f_est.jpg" height=400 width=400>
 
 </pre>
-=============================================================
+===============================================================
+---------------------------------------------------------------
 <pre>
 # There are regression and classification in supervised machine learning.
 # Machine Learning: Random Forest Regression (floating point)
