@@ -377,11 +377,16 @@ f,num
 800,11
 1000,14
 1600,23
+...
 $ python xyplot.py
 <img src="./xy.jpg" height=400 width=400>
 # Assume y=constant+coefficient*x: y is f and x is num in csv file.
 Calculate constant and coefficient using f.csv file
 $ python f_est.py
+const    -6.535112
+num      70.755618
+dtype: float64
+# result: f=-6.535+70.76*num
 <img src="./f_est.jpg" height=400 width=400>
 
 </pre>
