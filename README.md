@@ -369,6 +369,16 @@ ASSIGNMENT:
 Build the same program based on Python2.X.
 
 </pre>
+<br>
+<pre>
+ASSIGNMENT:
+plot a graph (x,y) coodinate points using f.csv file.
+# f.csv
+f,num
+800,11
+1000,14
+1600,23
+</pre>
 
 <pre>
 # There are regression and classification in supervised machine learning.
