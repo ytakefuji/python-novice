@@ -385,6 +385,8 @@ $ python xyplot.py
 <img src="./xy.jpg" height=400 width=400>
 # Assume y=constant+coefficient*x: y is f and x is num in csv file.
 Calculate constant and coefficient using f.csv file
+# r-squared: r-squared is a statistical measure of how close the data are to the fitted regression line.
+# observe two plots between real and estimated values.
 $ python f_est.py
 const    -6.535112
 num      70.755618
