@@ -387,6 +387,25 @@ $ python xyplot.py
 Calculate constant and coefficient using f.csv file
 # r-squared: r-squared is a statistical measure of how close the data are to the fitted regression line.
 # observe two plots between real and estimated values.
+# cat command displays the content of f_est.py.
+$ cat f_est.py
+import pandas as pd
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+data=pd.read_csv('f.csv')
+x=data['num']
+x=sm.add_constant(x)
+y=data['f']
+est=sm.OLS(y,x).fit()
+print(est.params)
+print(est.rsquared)
+print(est.rsquared.astype(float).round(6))
+e=est.predict(x).astype(int)
+x=data['num']
+plt.scatter(x,y,c='red')
+plt.scatter(x,e,c='blue')
+plt.show()
+
 $ python f_est.py
 const    -6.535112
 num      70.755618
