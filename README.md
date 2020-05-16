@@ -263,6 +263,7 @@ http://web.sfc.keio.ac.jp/~takefuji/ice.csv
 # ASSIGNMENT:
 # sort dd based on 'ice' value.
 # hint: sort_values('ice')
+#
 </pre>
 
 <pre>
@@ -467,6 +468,14 @@ plt.plot(t,p,'-b')
 plt.legend(('real','randomF'))
 plt.show()
 </pre>
+#
+# ASSIGNMENT:
+# In order to use x=data[['date','temp','street']], you must modify the values of 'date'.
+# HINTs:
+# use str.replace function: dt['date']=dt['date'].str.replace...
+# use datetime: from datetime import datetime
+# use datetime(...).strftime('%w'): 2012/8/1 -> 2012,8,1 -> 3 (wednesday)
+# create test.csv where dt['date'] includes integers.
 <pre>
 
 # Machine Learning: Random Forest Classification (integer)
@@ -488,6 +497,10 @@ plt.plot(t,p,'-b')
 plt.legend(('real','randomF'))
 plt.show()
 </pre>
+# ASSIGNMENT:
+# use three parameters in x: x=date[['date','temp','street']]
+# make a program to predict y=date['ice']: y=f(x)
+# show feature_importances of ['date','temp','street']
 
 <pre>
 # ASSIGNMENT: random forest using ice.csv
