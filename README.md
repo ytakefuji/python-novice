@@ -468,6 +468,7 @@ plt.plot(t,p,'-b')
 plt.legend(('real','randomF'))
 plt.show()
 </pre>
+<pre>
 #
 # ASSIGNMENT:
 # In order to use x=data[['date','temp','street']], you must modify the values of 'date'.
@@ -476,8 +477,9 @@ plt.show()
 # use datetime: from datetime import datetime
 # use datetime(...).strftime('%w'): 2012/8/1 -> 2012,8,1 -> 3 (wednesday)
 # create test.csv where dt['date'] includes integers.
-<pre>
+</pre>
 
+<pre>
 # Machine Learning: Random Forest Classification (integer)
 import pandas as pd
 import numpy as np
