@@ -596,4 +596,4 @@ for i in titanic.columns.values.tolist():
   pass
  else:
   titanic[i] = le.fit_transform(titanic[i])
-
+</pre>
