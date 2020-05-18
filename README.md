@@ -499,10 +499,12 @@ plt.plot(t,p,'-b')
 plt.legend(('real','randomF'))
 plt.show()
 </pre>
+<pre>
 # ASSIGNMENT:
-# use three parameters in x: x=date[['date','temp','street']]
-# make a program to predict y=date['ice']: y=f(x)
-# show feature_importances of ['date','temp','street']
+use three parameters in x: x=date[['date','temp','street']]
+make a program to predict y=date['ice']: y=f(x)
+show feature_importances of ['date','temp','street']
+</pre>
 
 <pre>
 # ASSIGNMENT: random forest using ice.csv
