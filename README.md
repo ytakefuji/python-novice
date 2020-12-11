@@ -602,7 +602,7 @@ for i in titanic.columns.values.tolist():
   titanic[i] = le.fit_transform(titanic[i])
 </pre>
 
-# How to add a new column in the existing csv
+# How to add a new column in the existing columns
 This example shows adding a new column 'new_column'to the existing columns and convert floating digits to 2-digit float.
 <pre>
 data=pd.read_csv('test.csv')
