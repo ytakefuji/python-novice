@@ -609,8 +609,16 @@ data=pd.read_csv('test.csv')
 data['new_column']=data['old_column']
 for i in range(len(data['old_column'])):
  data['new_column'][i]=round(data['old_column'],2)
-
 </pre>
 
+# How to concatenate pandas objects and save it as csv file
 
+<pre>
+import pandas as pd
+data=pd.read_csv('test.csv')
+y=data['yyy']
+X=data['XXX']
+yX=pd.concat([y,X],axis=1)
+yX.to_csv(''temp.csv',encoding='utf-8')
+</pre>
 
