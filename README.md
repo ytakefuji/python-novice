@@ -622,3 +622,29 @@ yX=pd.concat([y,X],axis=1)
 yX.to_csv(''temp.csv',encoding='utf-8')
 </pre>
 
+# Scraping web page and save it as csv file
+Scraping the data of population by country from worldometers.
+<pre>
+import requests
+import pandas as pd
+
+url='https://www.worldometers.info/world-population/population-by-country/'
+
+page=requests.get(url)
+df = pd.read_html(page.text)[0]
+df.to_csv('pop.csv')
+</pre>
+
+Scraping coronavirus information on deaths from worldometers
+<pre>
+import requests,re
+import pandas as pd
+from urllib.request import Request, urlopen
+
+url='https://www.worldometers.info/coronavirus/#nav-today/'
+
+req = Request(url, headers={'User-Agent': 'Firefox/76.0.1'})
+page = re.sub(r'<.*?>', lambda g: g.group(0).upper(), urlopen(req).read().decode('utf-8') )
+df = pd.read_html(page)[0]
+df.to_csv('death.csv')
+</pre>
