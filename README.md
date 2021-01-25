@@ -648,3 +648,9 @@ page = re.sub(r'<.*?>', lambda g: g.group(0).upper(), urlopen(req).read().decode
 df = pd.read_html(page)[0]
 df.to_csv('death.csv')
 </pre>
+
+<pre>
+# PDF spliting and merging
+$ python pdfsplit.py file_name_of_pdf
+$ python mergepdf.py
+</pre>
