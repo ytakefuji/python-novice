@@ -649,8 +649,14 @@ df = pd.read_html(page)[0]
 df.to_csv('death.csv')
 </pre>
 
-<pre>
+
 # PDF spliting and merging
+<pre>
 $ python pdfsplit.py file_name_of_pdf
 $ python mergepdf.py
 </pre>
+# html2PDF
+<pre>
+$ python html2pdf.py
+</pre>
+
